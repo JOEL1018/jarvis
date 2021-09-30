@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('Pikachu Running! 😎')
+            chalk.green.bold('Jarvis Running! 😎')
         );
     });
     
@@ -238,13 +238,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*~jarvis~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw'
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw'
                                     , MessageType.text);
                             }
                             if (error.message.includes('URL')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Only Absolutely URLs Supported_' +
                                         '\n*Nedeni:* _Medya araçlarının (xmedia, sticker..) LOG numarasında kullanılması._' +
                                         '\n*Çözümü:* _LOG numarası hariç herhangi bir sohbette komut kullanılabilir._'
@@ -254,7 +254,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('SSL')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _SQL Database Error_' +
                                         '\n*Nedeni:* _Database\'in bozulması._ ' +
                                         '\n*Solution:* _Bilinen herhangi bir çözümü yoktur. Yeniden kurmayı deneyebilirsiniz._'
@@ -264,7 +264,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('split')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Split of Undefined_' +
                                         '\n*Nedeni:* _Grup adminlerinin kullanabildiği komutların ara sıra split fonksiyonunu görememesi._ ' +
                                         '\n*Çözümü:* _Restart atmanız yeterli olacaktır._'
@@ -274,7 +274,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('Ookla')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Ookla Server Connection_' +
                                         '\n*Nedeni:* _Speedtest verilerinin sunucuya iletilememesi._' +
                                         '\n*Çözümü:* _Bir kez daha kullanırsanız sorun çözülecektir._'
@@ -284,7 +284,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('params')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Requested Audio Params_' +
                                         '\n*Nedeni:* _TTS komutunun latin alfabesi dışında kullanılması._' +
                                         '\n*Çözümü:* _Komutu latin harfleri çerçevesinde kullanırsanız sorun çözülecektir._'
@@ -294,7 +294,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('unlink')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _No Such File or Directory_' +
                                         '\n*Nedeni:* _Pluginin yanlış kodlanması._' +
                                         '\n*Çözümü:* _Lütfen plugininin kodlarını kontrol edin._'
@@ -304,7 +304,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('404')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Error 404 HTTPS_' +
                                         '\n*Nedeni:* _Heroku plugini altındaki komutların kullanılması sonucu sunucu ile iletişime geçilememesi._' +
                                         '\n*Çözümü:* _Biraz bekleyip tekrar deneyin. Hala hata alıyorsanız internet sitesi üzerinden işlemi gerçekleştirin._'
@@ -314,7 +314,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('reply.delete')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
                                         '\n*Çözümü:* _Bu hatanın çözümü yoktur. Önemli bir hata değildir._'
@@ -324,7 +324,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('load.delete')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
                                         '\n*Çözümü:* _Bu hatanın çözümü yoktur. Önemli bir hata değildir._'
@@ -334,7 +334,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('400')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Bailyes Action Error_ ' +
                                         '\n*Nedeni:* _Tam nedeni bilinmiyor. Birden fazla seçenek bu hatayı tetiklemiş olabilir._' +
                                         '\n*Çözümü:* _Bir kez daha kullanırsanız düzelebilir. Hata devam ediyorsa restart atmayı deneyebilirsiniz._'
@@ -344,7 +344,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('decode')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Cannot Decode Text or Media_' +
                                         '\n*Nedeni:* _Pluginin yanlış kullanımı._' +
                                         '\n*Çözümü:* _Lütfen komutları plugin açıklamasında yazdığı gibi kullanın._'
@@ -354,7 +354,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('unescaped')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Word Character Usage_' +
                                         '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması._' +
                                         '\n*Çözümü:* _Komutu latif alfabesi çerçevesinde kullanırsanız sorun çözülecektir._'
@@ -364,7 +364,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('conversation')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ HATA ÇÖZÜMLEME [jarvis] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Ana Hata:* _Deleting Plugin_' +
                                         '\n*Nedeni:* _Silinmek istenen plugin isminin yanlış girilmesi._' +
                                         '\n*Çözümü:* _Lütfen silmek istediğiniz pluginin başına_ *__* _koymadan deneyin. Hala hata alıyorsanız ismin sonundaki_ ```?(.*) / $``` _gibi ifadeleri eksiksiz girin._'
@@ -374,7 +374,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('conversation')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _Deleting Plugin_' +
                                         '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
                                         '\n*Solution:* _Please try without adding_ *__* _to the plugin you want to delete. If you still get an error, try to add like_ ```?(.*) / $``` _to the end of the name._ '
@@ -384,7 +384,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('split')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
                                         '\n*Solution:* _Restarting will be enough._'
@@ -394,7 +394,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('SSL')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _SQL Database Error_' +
                                         '\n*Reason:* _Database corruption._ ' +
                                         '\n*Solution:* _There is no known solution. You can try reinstalling it._'
@@ -404,7 +404,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('Ookla')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _Ookla Server Connection_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
                                         '\n*Solution:* _If you use it one more time the problem will be solved._'
@@ -414,7 +414,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('params')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
                                         '\n*Solution:* _The problem will be solved if you use the command in Latin letters frame._'
@@ -424,7 +424,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('unlink')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n*Reason:* _Incorrect coding of the plugin._' +
                                         '\n*Solution:* _Please check the your plugin codes._'
@@ -435,7 +435,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
                                         '\n*Solution:* _Wait a while and try again. If you still get the error, perform the transaction on the website.._'
                                         , MessageType.text
@@ -445,7 +445,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
                                         '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
                                         , MessageType.text
@@ -455,7 +455,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
                                         '\n*Solution:* _There is no solution for this error. It is not a fatal error._'
                                         , MessageType.text
@@ -465,7 +465,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
                                         '\n*Solution:* _If you use it again, it may improve. If the error continues, you can try to restart._'
                                         , MessageType.text
@@ -475,7 +475,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
                                         '\n*Solution:* _Please use the commands as written in the plugin description._'
                                         , MessageType.text
@@ -484,7 +484,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                 else if (error.message.includes('unescaped')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [jarvis] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
-                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw' +
+                                        '*\n\n Max Error oyvakkan Subscribe cheyyu https://youtube.com/channel/UC_gb_2HnOdeY0c1h6wwMyQw' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
                                         '\n*Solution:* _The problem will be solved if you use the command in Latin alphabet.._'
