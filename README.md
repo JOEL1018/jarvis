@@ -1,17 +1,17 @@
-<a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/permalink/210920/2ae6399b753c4a6e4d92490e52ae17fb.png" alt="google-font" border="0"></a>
+<a href="https://bit.ly/3koZRGY"><img src="The_Joker-7091d60c-8a62-3a85-91f7-7fb44d3e27fc.jpg" alt="google-font" border="0"></a>
 <div align="center">
-        <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
+        <img src="The_Joker-7091d60c-8a62-3a85-91f7-7fb44d3e27fc.jpg" alt="GIF" width="250" height="200"/>
 </p>
 
 <div align="center">
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+jarvis+WA+Bot+repo;Created+by+Ameer+Suhail;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+jarvis+WA+Bot+repo;Created+by+JOEL+MATHEW;This+is+the+Best++JARVIS+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
  </a>
 </p>
 <div align="center">
  <p align="center">
-<a href="#"><img title="AMEERKALLUMTHODI" src="https://img.shields.io/badge/JOEL1018-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="JOELMATHEW" src="https://img.shields.io/badge/JOEL1018-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/JOEL1018"><img title="Author" src="https://img.shields.io/badge/Author-JOEL1018/jarvis?color=blue&style=for-the-badge&logo=whatsapp"></a>
