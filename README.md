@@ -1,6 +1,6 @@
-<a href="https://bit.ly/3koZRGY"><img src="The_Joker-7091d60c-8a62-3a85-91f7-7fb44d3e27fc.jpg" alt="google-font" border="0"></a>
+<a href="https://bit.ly/3koZRGY"><img src="IMG-20211002-WA0000~2.jpg" alt="google-font" border="0"></a>
 <div align="center">
-        <img src="The_Joker-7091d60c-8a62-3a85-91f7-7fb44d3e27fc.jpg" alt="GIF" width="250" height="200"/>
+        <img src="IMG-20211002-WA0000~2.jpg" alt="GIF" width="250" height="200"/>
 </p>
 
 <div align="center">
