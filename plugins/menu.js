@@ -10,18 +10,18 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Pikachu-wallpaper-HD-dowload.jpg";
+    r_text[0] = "IMG-20211002-WA0000~2.jpg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Ameer Suhail✨️━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: IMG-20211002-WA0000~2.jpg, caption: `⛦━━━━━✨️JOEL Mathew✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Ameer Suhail 𝐛𝐨𝐭.
-            *Pikachu*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 JOEL Mathew 𝐛𝐨𝐭.
+            *Jarvis*
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
@@ -78,7 +78,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
 🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
 
-■□■□■□■□■□Pikachu■□■□■□■□■□
+■□■□■□■□■□Jarvis■□■□■□■□■□
 ♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
@@ -120,8 +120,8 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -anime <text>
 🍙𝙐𝙨𝙚➜  Gives you info about anime.
-⚠️anime pikachu
-■□■□■□■□■Pikachu□■□■□■□■□■□
+⚠️anime Jarvis
+■□■□■□■□■Jarvis□■□■□■□■□■□
 ♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sticker 
@@ -132,10 +132,10 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
 🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
-⚠️ex  attp pikachu
+⚠️ex  attp Jarvis
 ■□■□■□■□■□■□■□■□■□■□
-═════💢Pikachu💢═════
-▣▣▣▣▣▣▣▣▣ameersuhail▣▣▣▣▣▣▣▣▣▣▣
+═════💢Jarvis💢═════
+▣▣▣▣▣▣▣▣▣JOEL_MATHEW▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
 
